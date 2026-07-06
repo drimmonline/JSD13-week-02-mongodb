@@ -1,2 +1,2 @@
 use("sample_mflix");
-db.comments.find();
+db.theaters.find({});
