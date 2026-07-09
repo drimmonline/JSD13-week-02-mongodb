@@ -1,0 +1,18 @@
+{
+  "_id": "60c72b999b1d8b2bad75a777",
+  "order_id": "60c72b8...",
+  "user_id": "60c72b...",
+  "payment_method": "qr_promtpay",
+  "amount": 2500.0,
+  "currency": "THB",
+  "payment_status": "completed",
+  "transaction_details": {
+    "gateway_name": "omise",
+    "charge_id": "chrg_test_5xyz...",
+    "card_last4": "4242",
+    "evidence_image": "https://...",
+    "paid_at": "2026-07-09T11:30:00Z",
+    "created_at": "2026-07-09T11:28:00Z",
+    "updated_at": "2026-07-09T11:30:00Z"
+  }
+}

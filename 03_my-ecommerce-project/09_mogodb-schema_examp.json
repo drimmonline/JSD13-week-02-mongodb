@@ -1,0 +1,31 @@
+{
+  "_id": "examtest_id1",
+  "title": "สอบมิดเทอม คอมพิวเตอร์",
+  "describe_exam": "ข้อสอบคณิต ป.1 50ข้อ",
+  "time": "50:00",
+  "total_score": 100,
+  "questions": [
+    {
+      "question_id": "Q-01",
+      "question_text": "1+1 = ?",
+      "score": 2,
+      "choices": [
+        {
+          "choice_id": "C1",
+          "choice_text": "1",
+          "is_correct": false
+        },
+        {
+          "choice_id": "C2",
+          "choice_text": "2",
+          "is_correct": true
+        },
+        {
+          "choice_id": "C3",
+          "choice_text": "3",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

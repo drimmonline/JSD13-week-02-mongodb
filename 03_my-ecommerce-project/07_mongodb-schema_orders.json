@@ -1,6 +1,14 @@
 {
-  "account_id": "12344",
-  "type_id": "01",
-  "register_id": "1234",
-  "login_id": "11252"
+  "order_id": "order_001",
+  "user_id": "user01",
+  "total_amount": "59",
+  "shipping_address": "bangkok thailand",
+  "order_status": "success",
+  "order_detail": [
+    {
+      "product_id": "P1",
+      "product_name": "sheet_thai",
+      "price_at_purchase": 59
+    }
+  ]
 }

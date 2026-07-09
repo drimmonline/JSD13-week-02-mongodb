@@ -1,0 +1,14 @@
+{
+  "attemp_id": "exampt_1",
+  "user_id": "user_id1",
+  "exam_id": "examtest_id1",
+  "start_date": "09:07:69",
+  "end_date": "10:07:69",
+  "total_earn_score": "60",
+  "user_answers": [
+    {
+      "question_id": "Q-01",
+      "selected_choice_id": "C1"
+    }
+  ]
+}

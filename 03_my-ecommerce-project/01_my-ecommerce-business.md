@@ -22,5 +22,10 @@
     ขายเครดิตสำหรับทำข้อสอบ
     ค่าฟรีจาก user ที่ลงขายสินค้า
 
+## 5. core feature
+
+    -login , reginster ,view product add to cart ,payment ,exam test , chioce , count time,answer exam
+    -admin page CRUD product ,summary product and user count
+
 customer journey app
 user persona

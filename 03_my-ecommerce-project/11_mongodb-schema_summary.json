@@ -1,0 +1,12 @@
+{
+  "_id": "60c72b999b1d8b2bad75a999",
+  "summary_date": "2026-07-09",
+  "period": "daily",
+  "total_sales_amount": 154500,
+  "total_orders_count": 45,
+
+  "top_selling_products": [
+    { "product_id": "P_1", "product_name": "Keyboard", "quantity_sold": 12 },
+    { "product_id": "P_2", "product_name": "Mouse", "quantity_sold": 8 }
+  ]
+}

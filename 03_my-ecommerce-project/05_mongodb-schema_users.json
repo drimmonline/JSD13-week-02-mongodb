@@ -1,0 +1,17 @@
+{
+  "_id": "60c72b2f9b1d8b2bad75a101",
+  "username": "thomas_dev",
+  "password": "$2b$10$X7r...",
+  "login_status": false,
+  "account_type": "student",
+  "profile": {
+    "firstname": "Thomas",
+    "lastname": "Fiz",
+    "DoB": "2000-07-09",
+    "gender": "male",
+    "address": "Bangkok, Thailand",
+    "email": "thomasset@gmail.com",
+    "phone_number": "0931234561",
+    "image": "image.jpg"
+  }
+}
