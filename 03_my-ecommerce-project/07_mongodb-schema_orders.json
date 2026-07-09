@@ -1,14 +1,270 @@
-{
-  "order_id": "order_001",
-  "user_id": "user01",
-  "total_amount": "59",
-  "shipping_address": "bangkok thailand",
-  "order_status": "success",
-  "order_detail": [
-    {
-      "product_id": "P1",
-      "product_name": "sheet_thai",
-      "price_at_purchase": 59
-    }
-  ]
-}
+[
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c3" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a1" },
+    "order_date": { "$date": "2026-07-01T13:30:00Z" },
+    "total_amount": { "$numberDecimal": "2500.00" },
+    "order_status": "delivered",
+    "shipping_address": "123/45 Sukhumvit Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "668cb1b5e4b0f5a1b2b2b2b2" },
+        "product_name": "Mechanical Keyboard Gasket Mount",
+        "quantity": 1,
+        "price_at_purchase": { "$numberDecimal": "2500.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c4" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a2" },
+    "order_date": { "$date": "2026-07-02T09:15:00Z" },
+    "total_amount": { "$numberDecimal": "3200.00" },
+    "order_status": "delivered",
+    "shipping_address": "456/78 Ratchada Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "2be0e543ba3745b8a0b9bf3b" },
+        "product_name": "หนังสือสอบ IELTS ครบวงจร",
+        "quantity": 1,
+        "price_at_purchase": { "$numberDecimal": "550.00" }
+      },
+      {
+        "product_id": { "$oid": "efdcd3d0fd5d41f68ca031bd" },
+        "product_name": "ชีทสรุปวิชาคณิตศาสตร์ ม.ปลาย",
+        "quantity": 3,
+        "price_at_purchase": { "$numberDecimal": "150.00" }
+      },
+      {
+        "product_id": { "$oid": "c2c6b480f9de42dcb327d0ea" },
+        "product_name": "หนังสือเตรียมสอบ ก.พ.",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "350.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c5" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a3" },
+    "order_date": { "$date": "2026-07-03T14:45:00Z" },
+    "total_amount": { "$numberDecimal": "1500.00" },
+    "order_status": "shipped",
+    "shipping_address": "789/12 Silom Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "04a6de5796134c7fae8c0994" },
+        "product_name": "ชีทสรุปวิชาภาษาอังกฤษ",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "180.00" }
+      },
+      {
+        "product_id": { "$oid": "d0a641d7ad3c41b9a3b43374" },
+        "product_name": "ข้อสอบวิชาภาษาไทย 50 ข้อ",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "120.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c6" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a4" },
+    "order_date": { "$date": "2026-07-04T11:00:00Z" },
+    "total_amount": { "$numberDecimal": "4100.00" },
+    "order_status": "pending",
+    "shipping_address": "321/45 Phayathai Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "765c47ec1d744bc582f65c8a" },
+        "product_name": "แพ็กเกจติวเตอร์คณิตศาสตร์ 10 ชั่วโมง",
+        "quantity": 1,
+        "price_at_purchase": { "$numberDecimal": "2500.00" }
+      },
+      {
+        "product_id": { "$oid": "3e33b7970b3d49548dfee7a9" },
+        "product_name": "ข้อสอบวิชาฟิสิกส์ 100 ข้อ",
+        "quantity": 4,
+        "price_at_purchase": { "$numberDecimal": "250.00" }
+      },
+      {
+        "product_id": { "$oid": "1ebd36daad9648a7a2f31ab4" },
+        "product_name": "ชีทสรุปวิชาเคมี",
+        "quantity": 2,
+        "price_at_purchase": { "$numberDecimal": "200.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c7" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a5" },
+    "order_date": { "$date": "2026-07-05T16:30:00Z" },
+    "total_amount": { "$numberDecimal": "5700.00" },
+    "order_status": "delivered",
+    "shipping_address": "654/78 Sathon Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "668cb1b5e4b0f5a1b2b2b2b2" },
+        "product_name": "Mechanical Keyboard Gasket Mount",
+        "quantity": 1,
+        "price_at_purchase": { "$numberDecimal": "2500.00" }
+      },
+      {
+        "product_id": { "$oid": "0ede978a47864764a5e886d3" },
+        "product_name": "ชีทสรุปวิชาชีววิทยา",
+        "quantity": 10,
+        "price_at_purchase": { "$numberDecimal": "190.00" }
+      },
+      {
+        "product_id": { "$oid": "04a6de5796134c7fae8c0994" },
+        "product_name": "ชีทสรุปวิชาภาษาอังกฤษ",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "180.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c8" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a6" },
+    "order_date": { "$date": "2026-07-06T10:00:00Z" },
+    "total_amount": { "$numberDecimal": "1800.00" },
+    "order_status": "cancelled",
+    "shipping_address": "987/34 Rama 9 Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "1ebd36daad9648a7a2f31ab4" },
+        "product_name": "ชีทสรุปวิชาเคมี",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "200.00" }
+      },
+      {
+        "product_id": { "$oid": "0ede978a47864764a5e886d3" },
+        "product_name": "ชีทสรุปวิชาชีววิทยา",
+        "quantity": 2,
+        "price_at_purchase": { "$numberDecimal": "190.00" }
+      },
+      {
+        "product_id": { "$oid": "efdcd3d0fd5d41f68ca031bd" },
+        "product_name": "ชีทสรุปวิชาคณิตศาสตร์ ม.ปลาย",
+        "quantity": 2,
+        "price_at_purchase": { "$numberDecimal": "150.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c9" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a7" },
+    "order_date": { "$date": "2026-07-07T08:30:00Z" },
+    "total_amount": { "$numberDecimal": "6300.00" },
+    "order_status": "shipped",
+    "shipping_address": "246/80 Lat Phrao Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "2be0e543ba3745b8a0b9bf3b" },
+        "product_name": "หนังสือสอบ IELTS ครบวงจร",
+        "quantity": 3,
+        "price_at_purchase": { "$numberDecimal": "550.00" }
+      },
+      {
+        "product_id": { "$oid": "c2c6b480f9de42dcb327d0ea" },
+        "product_name": "หนังสือเตรียมสอบ ก.พ.",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "350.00" }
+      },
+      {
+        "product_id": { "$oid": "765c47ec1d744bc582f65c8a" },
+        "product_name": "แพ็กเกจติวเตอร์คณิตศาสตร์ 10 ชั่วโมง",
+        "quantity": 1,
+        "price_at_purchase": { "$numberDecimal": "2500.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3ca" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a8" },
+    "order_date": { "$date": "2026-07-08T15:00:00Z" },
+    "total_amount": { "$numberDecimal": "7800.00" },
+    "order_status": "pending",
+    "shipping_address": "135/57 Pracha Uthit Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "668cb1b5e4b0f5a1b2b2b2b2" },
+        "product_name": "Mechanical Keyboard Gasket Mount",
+        "quantity": 2,
+        "price_at_purchase": { "$numberDecimal": "2500.00" }
+      },
+      {
+        "product_id": { "$oid": "3e33b7970b3d49548dfee7a9" },
+        "product_name": "ข้อสอบวิชาฟิสิกส์ 100 ข้อ",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "250.00" }
+      },
+      {
+        "product_id": { "$oid": "d0a641d7ad3c41b9a3b43374" },
+        "product_name": "ข้อสอบวิชาภาษาไทย 50 ข้อ",
+        "quantity": 10,
+        "price_at_purchase": { "$numberDecimal": "120.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3cb" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a9" },
+    "order_date": { "$date": "2026-07-09T12:00:00Z" },
+    "total_amount": { "$numberDecimal": "2900.00" },
+    "order_status": "shipped",
+    "shipping_address": "864/23 Ekkamai Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "0ede978a47864764a5e886d3" },
+        "product_name": "ชีทสรุปวิชาชีววิทยา",
+        "quantity": 10,
+        "price_at_purchase": { "$numberDecimal": "190.00" }
+      },
+      {
+        "product_id": { "$oid": "efdcd3d0fd5d41f68ca031bd" },
+        "product_name": "ชีทสรุปวิชาคณิตศาสตร์ ม.ปลาย",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "150.00" }
+      },
+      {
+        "product_id": { "$oid": "1ebd36daad9648a7a2f31ab4" },
+        "product_name": "ชีทสรุปวิชาเคมี",
+        "quantity": 2,
+        "price_at_purchase": { "$numberDecimal": "200.00" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3cc" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1aa" },
+    "order_date": { "$date": "2026-07-10T17:45:00Z" },
+    "total_amount": { "$numberDecimal": "9500.00" },
+    "order_status": "pending",
+    "shipping_address": "579/91 Thonglor Rd, Bangkok, Thailand",
+    "order_details": [
+      {
+        "product_id": { "$oid": "765c47ec1d744bc582f65c8a" },
+        "product_name": "แพ็กเกจติวเตอร์คณิตศาสตร์ 10 ชั่วโมง",
+        "quantity": 1,
+        "price_at_purchase": { "$numberDecimal": "2500.00" }
+      },
+      {
+        "product_id": { "$oid": "2be0e543ba3745b8a0b9bf3b" },
+        "product_name": "หนังสือสอบ IELTS ครบวงจร",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "550.00" }
+      },
+      {
+        "product_id": { "$oid": "c2c6b480f9de42dcb327d0ea" },
+        "product_name": "หนังสือเตรียมสอบ ก.พ.",
+        "quantity": 5,
+        "price_at_purchase": { "$numberDecimal": "350.00" }
+      },
+      {
+        "product_id": { "$oid": "04a6de5796134c7fae8c0994" },
+        "product_name": "ชีทสรุปวิชาภาษาอังกฤษ",
+        "quantity": 10,
+        "price_at_purchase": { "$numberDecimal": "180.00" }
+      }
+    ]
+  }
+]

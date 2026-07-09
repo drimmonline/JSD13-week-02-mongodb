@@ -1,12 +1,122 @@
-{
-  "_id": "60c72b999b1d8b2bad75a999",
-  "summary_date": "2026-07-09",
-  "period": "daily",
-  "total_sales_amount": 154500,
-  "total_orders_count": 45,
-
-  "top_selling_products": [
-    { "product_id": "P_1", "product_name": "Keyboard", "quantity_sold": 12 },
-    { "product_id": "P_2", "product_name": "Mouse", "quantity_sold": 8 }
-  ]
-}
+[
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7g7" },
+    "product_id": { "$oid": "668cb1b5e4b0f5a1b2b2b2b2" },
+    "sum_date": { "$date": "2026-07-09T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "125000.00" },
+    "total_orders_count": 50,
+    "top_selling_products": {
+      "rank_1": "Mechanical Keyboard Gasket Mount",
+      "units_sold": 50
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7g8" },
+    "product_id": { "$oid": "efdcd3d0fd5d41f68ca031bd" },
+    "sum_date": { "$date": "2026-07-09T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "45000.00" },
+    "total_orders_count": 300,
+    "top_selling_products": {
+      "rank_1": "ชีทสรุปวิชาคณิตศาสตร์ ม.ปลาย",
+      "units_sold": 300
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7g9" },
+    "product_id": { "$oid": "c2c6b480f9de42dcb327d0ea" },
+    "sum_date": { "$date": "2026-07-09T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "87500.00" },
+    "total_orders_count": 250,
+    "top_selling_products": {
+      "rank_1": "หนังสือเตรียมสอบ ก.พ.",
+      "units_sold": 250
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7ga" },
+    "product_id": { "$oid": "04a6de5796134c7fae8c0994" },
+    "sum_date": { "$date": "2026-07-09T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "36000.00" },
+    "total_orders_count": 200,
+    "top_selling_products": {
+      "rank_1": "ชีทสรุปวิชาภาษาอังกฤษ",
+      "units_sold": 200
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7gb" },
+    "product_id": { "$oid": "3e33b7970b3d49548dfee7a9" },
+    "sum_date": { "$date": "2026-07-10T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "62500.00" },
+    "total_orders_count": 250,
+    "top_selling_products": {
+      "rank_1": "ข้อสอบวิชาฟิสิกส์ 100 ข้อ",
+      "units_sold": 250
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7gc" },
+    "product_id": { "$oid": "1ebd36daad9648a7a2f31ab4" },
+    "sum_date": { "$date": "2026-07-10T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "40000.00" },
+    "total_orders_count": 200,
+    "top_selling_products": {
+      "rank_1": "ชีทสรุปวิชาเคมี",
+      "units_sold": 200
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7gd" },
+    "product_id": { "$oid": "2be0e543ba3745b8a0b9bf3b" },
+    "sum_date": { "$date": "2026-07-10T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "110000.00" },
+    "total_orders_count": 200,
+    "top_selling_products": {
+      "rank_1": "หนังสือสอบ IELTS ครบวงจร",
+      "units_sold": 200
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7ge" },
+    "product_id": { "$oid": "0ede978a47864764a5e886d3" },
+    "sum_date": { "$date": "2026-07-11T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "38000.00" },
+    "total_orders_count": 200,
+    "top_selling_products": {
+      "rank_1": "ชีทสรุปวิชาชีววิทยา",
+      "units_sold": 200
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7gf" },
+    "product_id": { "$oid": "d0a641d7ad3c41b9a3b43374" },
+    "sum_date": { "$date": "2026-07-11T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "24000.00" },
+    "total_orders_count": 200,
+    "top_selling_products": {
+      "rank_1": "ข้อสอบวิชาภาษาไทย 50 ข้อ",
+      "units_sold": 200
+    }
+  },
+  {
+    "_id": { "$oid": "668cb202e4b0f5a1g7g7g7gg" },
+    "product_id": { "$oid": "765c47ec1d744bc582f65c8a" },
+    "sum_date": { "$date": "2026-07-11T00:00:00Z" },
+    "period": "daily",
+    "total_sale_amount": { "$numberDecimal": "75000.00" },
+    "total_orders_count": 30,
+    "top_selling_products": {
+      "rank_1": "แพ็กเกจติวเตอร์คณิตศาสตร์ 10 ชั่วโมง",
+      "units_sold": 30
+    }
+  }
+]

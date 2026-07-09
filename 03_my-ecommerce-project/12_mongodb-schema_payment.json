@@ -1,18 +1,132 @@
-{
-  "_id": "60c72b999b1d8b2bad75a777",
-  "order_id": "60c72b8...",
-  "user_id": "60c72b...",
-  "payment_method": "qr_promtpay",
-  "amount": 2500.0,
-  "currency": "THB",
-  "payment_status": "completed",
-  "transaction_details": {
-    "gateway_name": "omise",
-    "charge_id": "chrg_test_5xyz...",
-    "card_last4": "4242",
-    "evidence_image": "https://...",
-    "paid_at": "2026-07-09T11:30:00Z",
-    "created_at": "2026-07-09T11:28:00Z",
-    "updated_at": "2026-07-09T11:30:00Z"
+[
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4d4" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c3" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a1" },
+    "amount": { "$numberDecimal": "2500.00" },
+    "currency": "THB",
+    "payment_status": "completed",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1234",
+      "card_last4": "4242"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4d5" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c4" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a2" },
+    "amount": { "$numberDecimal": "3200.00" },
+    "currency": "THB",
+    "payment_status": "completed",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1235",
+      "card_last4": "5678"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4d6" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c5" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a3" },
+    "amount": { "$numberDecimal": "1500.00" },
+    "currency": "THB",
+    "payment_status": "pending",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1236",
+      "card_last4": "9012"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4d7" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c6" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a4" },
+    "amount": { "$numberDecimal": "4100.00" },
+    "currency": "THB",
+    "payment_status": "completed",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1237",
+      "card_last4": "3456"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4d8" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c7" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a5" },
+    "amount": { "$numberDecimal": "5700.00" },
+    "currency": "THB",
+    "payment_status": "completed",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1238",
+      "card_last4": "7890"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4d9" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c8" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a6" },
+    "amount": { "$numberDecimal": "1800.00" },
+    "currency": "THB",
+    "payment_status": "failed",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1239",
+      "card_last4": "1234"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4da" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3c9" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a7" },
+    "amount": { "$numberDecimal": "6300.00" },
+    "currency": "THB",
+    "payment_status": "completed",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1240",
+      "card_last4": "6789"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4db" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3ca" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a8" },
+    "amount": { "$numberDecimal": "7800.00" },
+    "currency": "THB",
+    "payment_status": "completed",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1241",
+      "card_last4": "2345"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4dc" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3cb" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a9" },
+    "amount": { "$numberDecimal": "2900.00" },
+    "currency": "THB",
+    "payment_status": "pending",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1242",
+      "card_last4": "8901"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1d1e4b0f5a1d4d4d4dd" },
+    "order_id": { "$oid": "668cb1c3e4b0f5a1c3c3c3cc" },
+    "user_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1aa" },
+    "amount": { "$numberDecimal": "9500.00" },
+    "currency": "THB",
+    "payment_status": "completed",
+    "transaction_detail": {
+      "gateway": "omise",
+      "charge_id": "chrg_test_5xyz1243",
+      "card_last4": "4567"
+    }
   }
-}
+]

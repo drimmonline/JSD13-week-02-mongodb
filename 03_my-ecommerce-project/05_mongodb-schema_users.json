@@ -1,17 +1,162 @@
-{
-  "_id": "60c72b2f9b1d8b2bad75a101",
-  "username": "thomas_dev",
-  "password": "$2b$10$X7r...",
-  "login_status": false,
-  "account_type": "student",
-  "profile": {
-    "firstname": "Thomas",
-    "lastname": "Fiz",
-    "DoB": "2000-07-09",
-    "gender": "male",
-    "address": "Bangkok, Thailand",
-    "email": "thomasset@gmail.com",
-    "phone_number": "0931234561",
-    "image": "image.jpg"
+[
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a1" },
+    "account_type": "customer",
+    "username": "thomas_dev",
+    "password": "$2b$10$EixZaYVK1VGbM16ie1...",
+    "login_status": false,
+    "profile": {
+      "name": "Thomas",
+      "lastname": "Fez",
+      "DoB": { "$date": "2000-07-09T00:00:00Z" },
+      "address": "123/45 Sukhumvit Rd, Bangkok, Thailand",
+      "email": "thomas.dev@gmail.com",
+      "phone_number": "0931234561",
+      "image": "https://storage.googleapis.com/mybucket/avatar1.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a2" },
+    "account_type": "customer",
+    "username": "jane_smith",
+    "password": "$2b$10$KixYaYVK1VGbM16ie2...",
+    "login_status": true,
+    "profile": {
+      "name": "Jane",
+      "lastname": "Smith",
+      "DoB": { "$date": "1998-03-15T00:00:00Z" },
+      "address": "456/78 Ratchada Rd, Bangkok, Thailand",
+      "email": "jane.smith@gmail.com",
+      "phone_number": "0931234562",
+      "image": "https://storage.googleapis.com/mybucket/avatar2.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a3" },
+    "account_type": "admin",
+    "username": "bob_wilson",
+    "password": "$2b$10$LixYaYVK1VGbM16ie3...",
+    "login_status": false,
+    "profile": {
+      "name": "Bob",
+      "lastname": "Wilson",
+      "DoB": { "$date": "1995-11-22T00:00:00Z" },
+      "address": "789/12 Silom Rd, Bangkok, Thailand",
+      "email": "bob.wilson@gmail.com",
+      "phone_number": "0931234563",
+      "image": "https://storage.googleapis.com/mybucket/avatar3.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a4" },
+    "account_type": "customer",
+    "username": "alice_johnson",
+    "password": "$2b$10$MixYaYVK1VGbM16ie4...",
+    "login_status": true,
+    "profile": {
+      "name": "Alice",
+      "lastname": "Johnson",
+      "DoB": { "$date": "2001-05-08T00:00:00Z" },
+      "address": "321/45 Phayathai Rd, Bangkok, Thailand",
+      "email": "alice.j@gmail.com",
+      "phone_number": "0931234564",
+      "image": "https://storage.googleapis.com/mybucket/avatar4.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a5" },
+    "account_type": "customer",
+    "username": "mike_brown",
+    "password": "$2b$10$NixYaYVK1VGbM16ie5...",
+    "login_status": false,
+    "profile": {
+      "name": "Mike",
+      "lastname": "Brown",
+      "DoB": { "$date": "1999-09-30T00:00:00Z" },
+      "address": "654/78 Sathon Rd, Bangkok, Thailand",
+      "email": "mike.brown@gmail.com",
+      "phone_number": "0931234565",
+      "image": "https://storage.googleapis.com/mybucket/avatar5.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a6" },
+    "account_type": "customer",
+    "username": "sarah_lee",
+    "password": "$2b$10$OixYaYVK1VGbM16ie6...",
+    "login_status": true,
+    "profile": {
+      "name": "Sarah",
+      "lastname": "Lee",
+      "DoB": { "$date": "2002-01-14T00:00:00Z" },
+      "address": "987/34 Rama 9 Rd, Bangkok, Thailand",
+      "email": "sarah.lee@gmail.com",
+      "phone_number": "0931234566",
+      "image": "https://storage.googleapis.com/mybucket/avatar6.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a7" },
+    "account_type": "admin",
+    "username": "david_kim",
+    "password": "$2b$10$PixYaYVK1VGbM16ie7...",
+    "login_status": false,
+    "profile": {
+      "name": "David",
+      "lastname": "Kim",
+      "DoB": { "$date": "1997-07-19T00:00:00Z" },
+      "address": "246/80 Lat Phrao Rd, Bangkok, Thailand",
+      "email": "david.kim@gmail.com",
+      "phone_number": "0931234567",
+      "image": "https://storage.googleapis.com/mybucket/avatar7.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a8" },
+    "account_type": "customer",
+    "username": "emma_wang",
+    "password": "$2b$10$QixYaYVK1VGbM16ie8...",
+    "login_status": true,
+    "profile": {
+      "name": "Emma",
+      "lastname": "Wang",
+      "DoB": { "$date": "2000-12-25T00:00:00Z" },
+      "address": "135/57 Pracha Uthit Rd, Bangkok, Thailand",
+      "email": "emma.wang@gmail.com",
+      "phone_number": "0931234568",
+      "image": "https://storage.googleapis.com/mybucket/avatar8.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1a9" },
+    "account_type": "customer",
+    "username": "chris_patel",
+    "password": "$2b$10$RixYaYVK1VGbM16ie9...",
+    "login_status": false,
+    "profile": {
+      "name": "Chris",
+      "lastname": "Patel",
+      "DoB": { "$date": "1996-04-02T00:00:00Z" },
+      "address": "864/23 Ekkamai Rd, Bangkok, Thailand",
+      "email": "chris.patel@gmail.com",
+      "phone_number": "0931234569",
+      "image": "https://storage.googleapis.com/mybucket/avatar9.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "668cb1a2e4b0f5a1a1a1a1aa" },
+    "account_type": "admin",
+    "username": "lisa_chen",
+    "password": "$2b$10$SixYaYVK1VGbM16ie10...",
+    "login_status": true,
+    "profile": {
+      "name": "Lisa",
+      "lastname": "Chen",
+      "DoB": { "$date": "1994-08-17T00:00:00Z" },
+      "address": "579/91 Thonglor Rd, Bangkok, Thailand",
+      "email": "lisa.chen@gmail.com",
+      "phone_number": "0931234570",
+      "image": "https://storage.googleapis.com/mybucket/avatar10.jpg"
+    }
   }
-}
+]

@@ -1,0 +1,55 @@
+// db.createColloection("users");
+// db.users.insertMany([
+//   {
+//     _id: UUID(),
+//     account_type: "student",
+//     username: "jane_smith",
+//     password: "$2b$10$KixYaYVK1VGbM16ie2...",
+//     login_status: true,
+//     profile: {
+//       name: "Jane",
+//       lastname: "Smith",
+//       DoB: ISODate("1998-03-15T00:00:00Z"),
+//       address: "456/78 Ratchada Rd, Bangkok, Thailand",
+//       email: "jane.smith@gmail.com",
+//       phone_number: "0931234562",
+//       image: "https://storage.googleapis.com/mybucket/avatar2.jpg",
+//       createdAt: new Date(),
+//     },
+//   },
+//   {
+//     _id: UUID(),
+//     account_type: "admin",
+//     username: "admin_test",
+//     password: "admin123",
+//     login_status: false,
+//     profile: {
+//       name: "Bob",
+//       lastname: "Wilson",
+//       DoB: ISODate("1995-11-22T00:00:00Z"),
+//       address: "789/12 Silom Rd, Bangkok, Thailand",
+//       email: "bob.wilson@gmail.com",
+//       phone_number: "0931234563",
+//       image: "https://storage.googleapis.com/mybucket/avatar3.jpg",
+//       createAT: new Date(),
+//     },
+//   },
+//   {
+//     _id: UUID(),
+//     account_type: "customer",
+//     username: "alice_johnson",
+//     password: "Ab12345",
+//     login_status: true,
+//     profile: {
+//       name: "Alice",
+//       lastname: "Johnson",
+//       DoB: ISODate("2001-05-08T00:00:00Z"),
+//       address: "321/45 Phayathai Rd, Bangkok, Thailand",
+//       email: "alice.j@gmail.com",
+//       phone_number: "0931234564",
+//       image: "https://storage.googleapis.com/mybucket/avatar4.jpg",
+//       createAt: new Date(),
+//     },
+//   },
+// ]);
+db.users.find();
