@@ -9,9 +9,12 @@ const app = express();
 app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
+// ตัวอย่าง: ถ้าใน Atlas ชื่อฐานข้อมูลว่า jsd_database ให้เติมเข้าไปหลังเครื่องหมาย / แบบนี้ครับ
+
+// สังเกตตรงหลังเครื่องหมาย / ก่อนถึงเครื่องหมาย ?
 const mongoURI =
-  "mongodb+srv://admin:BuxzeUeC9aQwLWqp@cluster0.x4pwt66.mongodb.net/?appName=Cluster0";
-//ดึงข้อมูลจาก mockuser
+  "mongodb+srv://admin:BuxzeUeC9aQwLWqp@cluster0.x4pwt66.mongodb.net/test?appName=Cluster0";
+// 👆 นี่คือชื่อ Database
 // const mockData = require("./mockUsers");
 mongoose
   .connect(mongoURI)
@@ -38,10 +41,12 @@ app.get("/api/users", async (request, response) => {
 //route param users
 app.get("/api/users/:id", async (request, response) => {
   try {
-    const userFindbyid = request.params.id;
+    const userFindbyid = request.params.id; // จะรับค่า "5f8f9dc2-9131-4ea1-9a3c-ab207ad2a9ba" มา
 
-    // ค้นหาโดยระบุ _id ในระบบของ MongoDB อัตโนมัติ
-    const userdata = await User.findById(userFindbyid);
+    // 💡 เปลี่ยนจาก User.findById(userFindbyid)
+    // มาเป็น User.findOne({ _id: userFindbyid }) แทนครับ
+    // การเขียนแบบนี้ Mongoose จะไม่บังคับแปลงร่างสตริงของเราให้เป็น ObjectId ครับ
+    const userdata = await User.findOne({ _id: userFindbyid });
 
     if (!userdata) {
       return response.status(404).json({
@@ -78,7 +83,10 @@ app.post("/api/users", async (request, response) => {
 
     // สร้างอินสแตนซ์ของ User ขึ้นมาจากข้อมูลฝั่งหน้าบ้านที่ส่งมาทาง body
     // ปล. สำหรับ MongoDB Atlas มันจะสร้างไอดีชนิด ObjectId ให้เราโดยอัตโนมัติ จึงไม่จำเป็นต้องใช้ uuidv4() ครับ
-    const newUser = new User(body);
+    const newUser = new User({
+      _id: uuidv4(),
+      ...body,
+    });
 
     // บันทึกข้อมูลลงสู่ระบบคลาวด์
     const savedUser = await newUser.save();

@@ -21,6 +21,6 @@ const userSchema = new mongoose.Schema(
 ); // ตัวนี้จะแถมคีย์ createdAt กับ updatedAt ให้ใน DB อัตโนมัติด้วยครับ
 
 // สร้าง Model ชื่อนามธรรมว่า "User" (Mongoose จะไปสร้างคอลเลกชันชื่อ "users" ให้ในฐานข้อมูลเอง)
-const User = mongoose.model("User", userSchema);
+const User = mongoose.model("users", userSchema);
 
 export default User;
