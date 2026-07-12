@@ -2,6 +2,8 @@ import express from "express";
 import mongoose from "mongoose";
 import userRouter from "../routes/userRoutes.js";
 import productRouter from "../routes/productRoutes.js";
+import cartRouter from "../routes/cartRoutes.js";
+import orderRouter from "../routes/orderRoutes.js";
 import cors from "cors";
 import helmet from "helmet";
 import { rateLimit } from "express-rate-limit";
@@ -32,3 +34,5 @@ app.listen(PORT, () => {
 app.use("/api", limiter);
 app.use("/api/users", userRouter);
 app.use("/api/products", productRouter);
+app.use("/api/carts", cartRouter);
+app.use("/api/orders", orderRouter);

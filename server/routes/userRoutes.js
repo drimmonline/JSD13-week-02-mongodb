@@ -8,6 +8,7 @@ import {
   updateUserPut,
   deleteUser,
   updateUserPatch,
+  loginUsers,
 } from "../controllers/userController.js";
 
 // 💡 ปรับเปลี่ยนชื่อตัวแปรตรงนี้ให้กลายเป็น userRouter ให้สอดคล้องกันทั้งหมดครับ
@@ -19,5 +20,5 @@ userRouter.post("/", createUser);
 userRouter.put("/:id", updateUserPut);
 userRouter.patch("/:id", updateUserPatch);
 userRouter.delete("/:id", deleteUser);
-userRouter.post("/login", loginUser);
+userRouter.post("/login", loginUsers);
 export default userRouter;
