@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 
-// ดีไซน์โครงสร้างให้ตรงกับ Object ของคุณมอส
 const userSchema = new mongoose.Schema(
   {
     _id: { type: String, required: true },
