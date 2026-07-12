@@ -5,6 +5,7 @@ import MainLayout from "./components/layout/MainLayout.jsx";
 
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import LoginPage from "./pages/LoginPage.jsx";
+import ProductsPage from "./pages/ProductPage.jsx";
 
 function RegisterRouteWrapper() {
   const navigate = useNavigate();
@@ -38,6 +39,7 @@ function App() {
           <Route index element={<HomePage />} /> {/* หน้าแรกสุด (/) */}
           <Route path="login" element={<LoginRouteWrapper />}></Route>
           <Route path="register" element={<RegisterRouteWrapper />} />
+          <Route path="product" element={<ProductsPage />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

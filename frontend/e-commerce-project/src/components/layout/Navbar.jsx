@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           {/* ฝั่งซ้าย: Logo */}
           <a
-            href="#"
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
@@ -57,7 +57,7 @@ export default function Navbar() {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 bg-blue-800 md:bg-transparent rounded-lg">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="block py-2 px-3 text-white md:p-0 hover:text-blue-200"
                   aria-current="page"
                 >
@@ -66,7 +66,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/home"
+                  href="/product"
                   className="block py-2 px-3 text-blue-100 md:p-0 hover:text-white"
                 >
                   Product

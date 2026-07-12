@@ -8,13 +8,6 @@ export default function RegisterPage({ isOpen, onClose, onSwitchToLogin }) {
     try {
       console.log("ส่งข้อมูลไปหลังบ้าน:", formData);
 
-      // ตัวอย่างการเชื่อมต่อ API จริงในอนาคต:
-      // const response = await axios.post('/api/auth/register', formData)
-      // if (response.status === 200) {
-      //   onClose(); // สมัครเสร็จแล้วปิด Modal
-      //   if(onSwitchToLogin) onSwitchToLogin(); // (แถม) สั่งให้เปิดกล่อง Login ต่อได้เลย
-      // }
-
       alert("สมัครสมาชิกสำเร็จ!");
       onClose(); // ปิด Modal หลังจากลงทะเบียนเรียบร้อย
     } catch (error) {

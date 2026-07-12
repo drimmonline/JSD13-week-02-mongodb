@@ -1,52 +1,5 @@
 import { useState } from "react";
-
-// สมมติข้อมูลหนังสือเด่นในร้าน
-const FEATURED_BOOKS = [
-  {
-    id: 1,
-    title: "The Art of Clean Code",
-    author: "Robert C. Martin",
-    price: 390,
-    image:
-      "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80",
-    tag: "Programming",
-  },
-  {
-    id: 2,
-    title: "Designing Data-Intensive Applications",
-    author: "Martin Kleppmann",
-    price: 550,
-    image:
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=400&q=80",
-    tag: "Database",
-  },
-  {
-    id: 3,
-    title: "Atomic Habits",
-    author: "James Clear",
-    price: 285,
-    image:
-      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=400&q=80",
-    tag: "Self-Improvement",
-  },
-  {
-    id: 4,
-    title: "Psychology of Money",
-    author: "Morgan Housel",
-    price: 290,
-    image:
-      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
-    tag: "Finance",
-  },
-];
-
-const CATEGORIES = [
-  "ทั้งหมด",
-  "คอมพิวเตอร์/ไอที",
-  "จิตวิทยา/พัฒนาตนเอง",
-  "บริหาร/การเงิน",
-  "นิยาย/วรรณกรรม",
-];
+import { CATEGORIES, FEATURED_BOOKS } from "../utils/dummybook";
 
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("ทั้งหมด");

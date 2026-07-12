@@ -7,14 +7,6 @@ export default function LoginPage({ isOpen, onClose }) {
     try {
       console.log("กำลังส่งข้อมูลล็อกอินเข้า API:", formData);
 
-      // ตัวอย่างจำลองการยิง API จริง:
-      // const response = await axios.post('/api/auth/login', formData)
-      // if (response.status === 200) {
-      //    localStorage.setItem('token', response.data.token)
-      //    onClose(); // ล็อกอินสำเร็จให้ปิด Modal อัตโนมัติ
-      //    navigate('/dashboard')
-      // }
-
       alert("เข้าสู่ระบบสำเร็จ!");
       onClose(); // ปิด Modal หลังจากกดตกลง
     } catch (error) {
