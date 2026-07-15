@@ -1,8 +1,9 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "localhost:3000/api/", // เปลี่ยนเป็น URL หลังบ้านของคุณ
-  timeout: 10000, // ถ้าส่งข้อมูลง้างเกิน 10 วินาทีให้ตัดการทำงาน (Timeout)
+  // ✅ ต้องมี http:// นำหน้าเสมอนะครับคุณมอส
+  baseURL: "http://localhost:3000/api/",
+  timeout: 10000,
   headers: {
     "Content-Type": "application/json",
   },

@@ -14,8 +14,13 @@ const PORT = process.env.PORT || 3000;
 
 const mongoURI =
   "mongodb+srv://admin:BuxzeUeC9aQwLWqp@cluster0.x4pwt66.mongodb.net/test?appName=Cluster0";
-// 👆 นี่คือชื่อ Database
 
+app.use(
+  cors({
+    origin: "http://localhost:5173", // อนุญาตเฉพาะพอร์ตหน้าบ้านของ Vite เท่านั้น
+    credentials: true,
+  }),
+);
 app.use(helmet());
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // ในเวลา 15 นาที
